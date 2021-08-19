@@ -2,7 +2,7 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const connectDB = require('./config/database');
-const userRouter = require('./routes/user');
+const userRoutes = require('./routes/user');
 
 const app = express();
 
@@ -12,7 +12,7 @@ connectDB();
 
 app.use(cookieParser());
 app.use(express.json());
-app.use('/user', userRouter);
+app.use('/user', userRoutes);
 
 
 app.listen(process.env.PORT, () => {
