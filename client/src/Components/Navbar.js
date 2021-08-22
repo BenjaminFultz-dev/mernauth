@@ -67,7 +67,7 @@ const Navbar = props => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <Link to="/">
-                <div className="navbar-brand">MERN JWT Auth</div>
+                <div className="navbar-brand">MERN JWT Auth Boilerplate</div>
             </Link>
             <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
