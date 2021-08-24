@@ -58,7 +58,7 @@ const Todos = props => {
             </ul>
             <br />
             <form onSubmit={onSubmit}>
-                <label htmlFor="todo">Enter Todo</label>
+                <label htmlFor="todo">Create Todo</label>
                 <input type="text"
                     name="todo"
                     value={todo.name}
